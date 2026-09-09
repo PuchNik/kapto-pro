@@ -1,0 +1,962 @@
+[
+  {
+    "path": "ceapsvp/ceap.jpg",
+    "sha256": "3418b0030341aad7521f561ca3778b63fedbe747159e5885b2abe7ffbbcb3c25"
+  },
+  {
+    "path": "ceapsvp/svp.jpg",
+    "sha256": "dc2554e94ef1a2d848ef3eec0bd2337a0073633d3ff799e4ebf440b3eb2084d8"
+  },
+  {
+    "path": "ceapsvp/svp_1.jpg",
+    "sha256": "da6169e3e2550bad74844a66a4b41bccbcc767729f3f68d9b125b7b252a025dc"
+  },
+  {
+    "path": "ceapsvp/svp_2.jpg",
+    "sha256": "a65c51fddafee69923e5471437c679cf7fe0646abe1846c5f893af976cfdd1e5"
+  },
+  {
+    "path": "ceapsvp/svp_3.jpg",
+    "sha256": "377ca42e5c2802da06ab48aae5833c7132020b9e14a2f0852b1ba3c3226a8bb5"
+  },
+  {
+    "path": "ceapsvp/svp_4.jpg",
+    "sha256": "2f50a207ad929096b4381f7c0ef7e93d2a57fa7e38bde6d07cfd921c27920903"
+  },
+  {
+    "path": "ceapsvp/svp_5.jpg",
+    "sha256": "602145e3bd7f45817685104bf0a11bf3720df7550655bf3d0245871b3390b19f"
+  },
+  {
+    "path": "ceapsvp/svp_6.jpg",
+    "sha256": "2587844d6d97208ab95fd0ddc72412c4e31abafe1800911c4e2c3d09946e7c5e"
+  },
+  {
+    "path": "ceapsvp/svp_7.jpg",
+    "sha256": "041b310ddd214a318344c3f7c602d05f6a4203b5f2744d91aafcfcc8bee4d80d"
+  },
+  {
+    "path": "ceapsvp/svp_8.jpg",
+    "sha256": "ece525a6d1723001b3e4c96ebe86124c984e5ec8b17fd0cc45d7560f93fff874"
+  },
+  {
+    "path": "ceapsvp/svp_9.jpg",
+    "sha256": "a6a592eae9ca2cf2411a6d904de98a07524c08a6ae1e1994ca6525917eb194e5"
+  },
+  {
+    "path": "ceapsvp/svp_a.jpg",
+    "sha256": "cb4f4852eba0f9cfb47e921f8051596ab7a58237e2c58cdccfc29f3003bad41c"
+  },
+  {
+    "path": "ceapsvp/svp_e.jpg",
+    "sha256": "f877c5f08b5d27910047456fc9da863ab1a9ed324e8312001e016c5e10874f34"
+  },
+  {
+    "path": "ceapsvp/svp_f1.jpg",
+    "sha256": "5e10bca3000d53d2acfa65ec9d17a93170271d260ef096127c10160ed72a9e89"
+  },
+  {
+    "path": "ceapsvp/svp_f2.jpg",
+    "sha256": "19a133555abc477949779f4785133d797774d0fc1dac52cbeb3cb5f00c62abc9"
+  },
+  {
+    "path": "ceapsvp/svp_f3.jpg",
+    "sha256": "06193a4c4ea35a3465d066bab5829d514b74340a063f74203084b774f0bed1e2"
+  },
+  {
+    "path": "ceapsvp/svp_f4.jpg",
+    "sha256": "8ef77be5338cf9b3120941b7ae2cfd57c3edf34ded0743bc3641aa53756e7733"
+  },
+  {
+    "path": "ceapsvp/svp_f5.jpg",
+    "sha256": "9fccaf41deb245b229c581be9c8f277676d718614ec65ab7916f99d505cf0d88"
+  },
+  {
+    "path": "ceapsvp/svp_f6.jpg",
+    "sha256": "851bd586a2e6f04384caa6c241649d81c6278aa8734ba16e9b686c982132aeb1"
+  },
+  {
+    "path": "ceapsvp/svp_f7.jpg",
+    "sha256": "d6ed671a369dc32730c7e0c1ea79daeb22cbd91a3a7bee369ff3b5de353e8a3c"
+  },
+  {
+    "path": "ceapsvp/svp_f8.jpg",
+    "sha256": "16432921316edafd6600d3931b8d26a318dcf0a546bb87fd03ca1882512c719e"
+  },
+  {
+    "path": "ceapsvp/svp_f9.jpg",
+    "sha256": "27b7922211e83cb7303b13156d06573b92ba21dee5f6558c20b52836ff4ada2c"
+  },
+  {
+    "path": "ceapsvp/svp_h.jpg",
+    "sha256": "66fb6858d3111b97c78a9bd65bfddb4637566220c579ddc68223504287e14d24"
+  },
+  {
+    "path": "ceapsvp/svp_s.jpg",
+    "sha256": "8a2608dfac2600b17c4c42eb2557835f8992dc33bfd2c3ca4ac3571a65e94a81"
+  },
+  {
+    "path": "ceapsvp/svp_v.jpg",
+    "sha256": "3728f2a78ecdc16360e50d090aa89b3f095640d1b1bcae01b2e5eed777738df6"
+  },
+  {
+    "path": "diplomas/alexander.jpg",
+    "sha256": "a6657f988777b34579b8baa081089133574b479996235281e247f0405f26eaef"
+  },
+  {
+    "path": "diplomas/certificate_58.jpg",
+    "sha256": "46b3a008b86aa7ccfc77d57e0afb8d109bdbbd5c17262af6a9bef683d55b0ea0"
+  },
+  {
+    "path": "diplomas/certificate_alexander.jpg",
+    "sha256": "857daf49ca31e2f5b72dfabf4d2d1641799d4b8a7822017ffa544c0e489714c8"
+  },
+  {
+    "path": "diplomas/certificate_andrology.jpg",
+    "sha256": "a88c652c45260eb302c51b9e883051365914fe71f8d2dc7126c030c3dee34138"
+  },
+  {
+    "path": "diplomas/certificate_category.jpg",
+    "sha256": "e53f03ca0fd2aa5f73fd43f883e517a770516f795bae437e9627ab3bb72c9cd8"
+  },
+  {
+    "path": "diplomas/certificate_diplom.jpg",
+    "sha256": "61eaf677722bae06d92c88423ba420600439f03317f47c3e2f60134a0a27615d"
+  },
+  {
+    "path": "diplomas/certificate_diplom_iefrs.jpg",
+    "sha256": "9c47b507950842d73983db22de5de19166594d3b21c1f05ede4d4ae8d7988918"
+  },
+  {
+    "path": "diplomas/certificate_doctor.jpg",
+    "sha256": "71968d2c45907738902659fa0dee8e5f203fc0d5c438e1b99e7606ac3a9028f8"
+  },
+  {
+    "path": "diplomas/certificate_doctor_med.jpg",
+    "sha256": "5bebf11f1e6719afc67dd9ce061981926e04ef1993aa6ac26df10f0aafe439b9"
+  },
+  {
+    "path": "diplomas/certificate_eau.jpg",
+    "sha256": "c9777571ee696234765c431376469bc909de69a07ba88e05dd97fbef7a899ff2"
+  },
+  {
+    "path": "diplomas/certificate_endosurgery.jpg",
+    "sha256": "559e2b3ac89125d761b4eb66e2f441211cfbba2ba7747d65abc85d9eaef2d132"
+  },
+  {
+    "path": "diplomas/certificate_english.jpg",
+    "sha256": "551769ba5e42f60a2dfdf5c758b8f552eb535e817fa05dead07e8ea766492a4d"
+  },
+  {
+    "path": "diplomas/certificate_fisioterapy.jpg",
+    "sha256": "f13c8b41827b17c85fc6f4bc088050762853c4b84f9663b87cb9bea8eef5ab29"
+  },
+  {
+    "path": "diplomas/certificate_flebology.jpg",
+    "sha256": "3304f6083ecf58a089cc55042417bd9f23314a39a1bb6a7bd53125c95f16e55f"
+  },
+  {
+    "path": "diplomas/certificate_fsm.jpg",
+    "sha256": "390a9762da509074a8b00011cf80daab875f89750c970cec81f3796d963017bf"
+  },
+  {
+    "path": "diplomas/certificate_hippocrate.jpg",
+    "sha256": "a143755f14313f36d1097a96bf7b9ac5c5a5715d65c03959f1ca19e74826121c"
+  },
+  {
+    "path": "diplomas/certificate_inh.jpeg",
+    "sha256": "fd6380f4deb2f7677dddce5e8144e81f5874924ead1422774dc9b2de21ab0eb7"
+  },
+  {
+    "path": "diplomas/certificate_iunc.jpg",
+    "sha256": "f349475b7ed0515f7f3d8ac684af91a55408fac3181dd2758141e2f1f7a70d2d"
+  },
+  {
+    "path": "diplomas/certificate_kmn.jpg",
+    "sha256": "afb7b53b17755eaaeb20282d3c2432f3cbd9e59d020e610406e0c9e06b609530"
+  },
+  {
+    "path": "diplomas/certificate_laboratory.jpg",
+    "sha256": "f9e62e6fed87b369a52509575cc4df11084d763738c5bb223fee582e1305b10d"
+  },
+  {
+    "path": "diplomas/certificate_medal_vernadsky.jpg",
+    "sha256": "bf975d432750097f84ec8f639c3788b4dbaa035cf37abf09aa3e00519c5053db"
+  },
+  {
+    "path": "diplomas/certificate_moscow_850.jpg",
+    "sha256": "3b1f337bd07b60803d2d460b3508e40858d2b9018155547212cb4d4f156076d7"
+  },
+  {
+    "path": "diplomas/certificate_nh_1.jpeg",
+    "sha256": "b27e4e947a4c3063aff9e46c9688fc0a250951041b341bae10f494f47a6a86d7"
+  },
+  {
+    "path": "diplomas/certificate_orden_ekaterina.jpg",
+    "sha256": "db60717c1b58ed1da252425904fadd31e5abda97e5f07c63c7a67963e718cc2e"
+  },
+  {
+    "path": "diplomas/certificate_ordinatura.jpg",
+    "sha256": "f3684a2d7a0a24a97d6b64d0245f3ec9d1c0b97080d6da034fb5593292cba409"
+  },
+  {
+    "path": "diplomas/certificate_oz.jpg",
+    "sha256": "aaad4d6fc12d7ff249c8147ee54d7ec438492fe5ed158db2ead30392e1e11dd7"
+  },
+  {
+    "path": "diplomas/certificate_oz_1.jpg",
+    "sha256": "caefe0b1d7792fb0df35ed27597ac28088acff7c0c0142f4fd3afc4b84a9707f"
+  },
+  {
+    "path": "diplomas/certificate_oz_2.jpg",
+    "sha256": "154acf62e60a53486ae24108f67bbbd73f71c194ae77632a97d542bf63eadbdf"
+  },
+  {
+    "path": "diplomas/certificate_oz_3.jpg",
+    "sha256": "0e24c5d2a700b050acd214edf3c53f4b81fc275a24be2aa1bdfbb36008c3a350"
+  },
+  {
+    "path": "diplomas/certificate_oz_4.jpg",
+    "sha256": "e3258fa1fbb4e3db82e02bfd6b6e12862357fcffd745bd5d52d4cd97a852249c"
+  },
+  {
+    "path": "diplomas/certificate_oz_5.jpg",
+    "sha256": "94369a5c90399b06aef516bb2fa6e0b7834ab88a07ad1e2ae8d0e29d64f8d78f"
+  },
+  {
+    "path": "diplomas/certificate_professor.jpg",
+    "sha256": "7d47842c838538a068851953e5bf46115debcbba6e2e1bb49db120dae29b0f79"
+  },
+  {
+    "path": "diplomas/certificate_recsurgery.jpg",
+    "sha256": "f7f29740307d50c51e2b19771846f4bbe0076dd5104dcfe722055c2b24545904"
+  },
+  {
+    "path": "diplomas/certificate_reflex_94.jpg",
+    "sha256": "fcb8846f3a08f6ccf7c1094a35af11ccef3650f13595b29531d7f2c8db0a8a2a"
+  },
+  {
+    "path": "diplomas/certificate_reflex_95.jpg",
+    "sha256": "e2e2e7b9712e189309abb95c9a006e92675f28e892d1cbf30300be652cc0e444"
+  },
+  {
+    "path": "diplomas/certificate_rentsurg_1.jpg",
+    "sha256": "d5f6b971c43be0041f44cba0c94004893d114fe89896b2401147a6ec2a684de9"
+  },
+  {
+    "path": "diplomas/certificate_rentsurg_2.jpg",
+    "sha256": "1b0ef1debee98928593902b444f07697d57785ad4decca27bad8292b2fd29b3a"
+  },
+  {
+    "path": "diplomas/certificate_roentgenosurgery_2.jpg",
+    "sha256": "7c24842a8dba3344597421c03c972a9420b01cb98016e275031437153f7bfec1"
+  },
+  {
+    "path": "diplomas/certificate_standart.jpg",
+    "sha256": "21e48b43b8820dcc53c8123ab76641c62e395544ef20e53c8892571e1733bf09"
+  },
+  {
+    "path": "diplomas/certificate_surgery.jpg",
+    "sha256": "af40758dc87ad382cfa956a34e6c36fd9861f28034217f0626ac708334fe70fa"
+  },
+  {
+    "path": "diplomas/certificate_urology_2.jpg",
+    "sha256": "73684cf2a1962357048d03497c63ce2bd4f66a71eb10afed4917cf92291b48ed"
+  },
+  {
+    "path": "diplomas/certificate_urology_2002.jpg",
+    "sha256": "d8a2bbd30479688ff216b5a67ee10f4f6cecbfdd813c90bdb838fad900789737"
+  },
+  {
+    "path": "diplomas/certificate_urology_2011.jpg",
+    "sha256": "5a573fa8369f46bf7b71f4ffc94624a3cfe1d04a2e86a04a26488740e2687a05"
+  },
+  {
+    "path": "diplomas/certificate_urology_2015_1.jpg",
+    "sha256": "4eb2a63f40f26ff450a8a4e9b2df263ebd65d4dd4f1263cc96dc5ca1e71b2d06"
+  },
+  {
+    "path": "diplomas/certificate_urology_2015_2.jpg",
+    "sha256": "631ed75af1d368add61e826ecbb7c68a03d3e64235db797d21fbe4dee3525d92"
+  },
+  {
+    "path": "diplomas/certificate_urology_2020_1.jpg",
+    "sha256": "6c5e80cf18ef35ccb5ca32f4a6fe8a595d3eaa92e3de54bea4028f6a4b2de2e9"
+  },
+  {
+    "path": "diplomas/certificate_urology_2020_2.jpg",
+    "sha256": "ac5e0963ec2d941b16cfa7b172082a58ec5f0b2565bafc8151664b4d6ed8d2e0"
+  },
+  {
+    "path": "diplomas/certificate_usi.jpg",
+    "sha256": "d7fb5efc6131b52c730701d67bd554958cc09ed83ae3b0221313e4040e358335"
+  },
+  {
+    "path": "diplomas/certificate_zrno_1.jpg",
+    "sha256": "5076af6ea8dbb6a2429a8fb9645f534e251da9af35a8a11f0c1f116bc69e998a"
+  },
+  {
+    "path": "diplomas/certificate_zrno_2.jpg",
+    "sha256": "aa92ae4a3f00570879905404e33752494a88c75e8dc2f557dcf1a016ef6dc7a4"
+  },
+  {
+    "path": "diplomas/cert_uu_2017.jpg",
+    "sha256": "2f77f3f4957a028a9baf3f26d84f0fb5e8a1bdc71ab0087d8ed1095b2f05f28e"
+  },
+  {
+    "path": "diplomas/diplom_zk.jpg",
+    "sha256": "643baa4f6c802ca89311dce927e20a1cfc9279cb832aec57fe4749b1a2c22fda"
+  },
+  {
+    "path": "diplomas/doctor_med.jpg",
+    "sha256": "d7fd5b211bdc90b3a91a2f4683f85c8ea7391befffda0d424b60aff60262dde3"
+  },
+  {
+    "path": "diplomas/european_quality_1.jpg",
+    "sha256": "7714086c2a3a738de644a5dc542a0f6e08d379c2e09aabca90f654f33489dce6"
+  },
+  {
+    "path": "diplomas/european_quality_2.png",
+    "sha256": "0997ab9e372b96e8eb51b0560ab2b1d70ca2ceaf31c4ec1fc8666679f3aa1050"
+  },
+  {
+    "path": "diplomas/fsmember.gif",
+    "sha256": "3a2ac8df7fcebfcd08cac454d55e438ada649a342f62e736ee70ce510fea824f"
+  },
+  {
+    "path": "diplomas/gold_vdnh.jpg",
+    "sha256": "2529df3418f45177376df3c4f89d28ca7a22ab3dd93c86250a26cf5da36d2614"
+  },
+  {
+    "path": "diplomas/hippocrate.jpg",
+    "sha256": "db490d46412cbe850d8d4b804052757edd59a49ac3c2567d8f639e47554fbe9f"
+  },
+  {
+    "path": "diplomas/loyaltyimage.png",
+    "sha256": "85d83f7be80fe16cbcca0590ac446ada42b1e0e8fb08a6491da3b1d7f5a0947d"
+  },
+  {
+    "path": "diplomas/medal_vernadsky.jpg",
+    "sha256": "8b951bc3d74da1813e3ca91b44c41fa0d15cb4264e2d5eb3aed84dd110c95ad7"
+  },
+  {
+    "path": "diplomas/member_fs.jpg",
+    "sha256": "5bff1ea9eda8d6cfb314dea3c26aaacc07e45d996cfede13a3775a93b5396975"
+  },
+  {
+    "path": "diplomas/m_zrnio.jpg",
+    "sha256": "21af0c279876f5b61df450ce4beaeac2ec0225a0be4a80c5a56a7c4801417bd2"
+  },
+  {
+    "path": "diplomas/onn_1.jpg",
+    "sha256": "3ab848030f4b9b77f5975a6ca85eae32dafa8400440651fe26393a7b533b0ef9"
+  },
+  {
+    "path": "diplomas/onn_2.jpg",
+    "sha256": "244b3b72f85ca29c7450a8d7fa3118e36b74b1a6e19e22226b20ebfdeb9f7c24"
+  },
+  {
+    "path": "diplomas/orden_ekaterina.jpg",
+    "sha256": "31039f58bbc76f35e2f43600efa63a8c60821ff6f85329aca8799c489d6c2a09"
+  },
+  {
+    "path": "diplomas/oz-2023_1.jpg",
+    "sha256": "270077480ab7b5f98bc69d4d1e8450d80bdfc7b04c55a7ea34af76ecf14ef1dc"
+  },
+  {
+    "path": "diplomas/oz_2023.jpg",
+    "sha256": "e5ed1c965d7877f91dd1b83ed758f2c70ddfe89c7bb084428411dc467759c1e8"
+  },
+  {
+    "path": "diplomas/powerfill.jpg",
+    "sha256": "161362859920ea6c8ebf90e03168006306f5785263083212b350370cf1e25adb"
+  },
+  {
+    "path": "diplomas/professor_rae.jpg",
+    "sha256": "afb07c8021b674c36ec2ede332fe301da377e8b13c4f7dd4983215c942661bbc"
+  },
+  {
+    "path": "diplomas/prp.jpg",
+    "sha256": "a9d9a0998fb86c9bef91e1e9b641970cbd69ab23216e34f30476b5b9014f661c"
+  },
+  {
+    "path": "diplomas/rev_2023.jpg",
+    "sha256": "b1459765ef15a89f2a606b533180553847e00922435642ca07780c203ea25e96"
+  },
+  {
+    "path": "diplomas/sert_zdnt.jpg",
+    "sha256": "07b8d570b9f0f6030d858ee86724f423ccebb9afdd29ff4b3fe281dd18901cc5"
+  },
+  {
+    "path": "diplomas/ud_zdnt1.jpg",
+    "sha256": "2e95aaedfbacaba4d1d7a53537efece1c73145d7e043c761ead2d59730cbeb2a"
+  },
+  {
+    "path": "diplomas/ud_zk1.jpg",
+    "sha256": "fcbf2e044fc304e4bd64447dd567e0d7e2f9d92627bf752a53126b67fcbc5e58"
+  },
+  {
+    "path": "diplomas/usd2020.jpg",
+    "sha256": "479a633b8d6b0ca3066733bcb74fc885aabc7b9506b17ce90aa81ada9e531381"
+  },
+  {
+    "path": "diplomas/usd2025.jpg",
+    "sha256": "69d73fad8ce80ba9f5bf0e2804d20d9c384315ef5d4ef435cda8b5ff43640568"
+  },
+  {
+    "path": "diplomas/vdnh.jpg",
+    "sha256": "0fcd92dd7b67bd720af74fc258c33724a88877fdebcc21972e180ecf50414222"
+  },
+  {
+    "path": "diplomas/vr1.jpg",
+    "sha256": "72b464e0be02b0c6f269cf6b16efea0930dbb307301765a965bb315a8dcd9fd3"
+  },
+  {
+    "path": "diplomas/vr2.jpg",
+    "sha256": "36783a713d26851801a0c4f119713da4fdafd47e10060a2ba25156e5b80f19d0"
+  },
+  {
+    "path": "diplomas/ws2015_2.jpg",
+    "sha256": "214b84a515c9a227f97a72ff601befdb3fe19dc1772920d926903c1a09b37c22"
+  },
+  {
+    "path": "diplomas/ws_2016_1.jpg",
+    "sha256": "1840c1efa7e9d2e6e4eda5088149dada25f40151f6a84705b43c1de4233a75a7"
+  },
+  {
+    "path": "diplomas/ws_2016_2.jpg",
+    "sha256": "02cf6dfc26cc2aad6001e2de4ab25d31c668d5e8b20cec71c6ecd18129ed4d91"
+  },
+  {
+    "path": "diplomas/zn_zdnt.jpg",
+    "sha256": "852b99e73dc5b1ed5bf1ccabb789fb585b9e43d7eb905429e1842f3cd7aaa309"
+  },
+  {
+    "path": "diplomas/zn_zk.jpg",
+    "sha256": "effad60a809d4dc470fe323caeb06cbc4d4a4e8f6335f33dec67fc2752030061"
+  },
+  {
+    "path": "download/andrologiya_2020.pdf",
+    "sha256": "afedc455d3d682d94ad1be12b58ba426a903311e838a542eea17da8ae515d9b1"
+  },
+  {
+    "path": "download/andrologiya_2025_3.pdf",
+    "sha256": "fecf6ee8722cbffd0569b9f4c8419b6d33132322f0720d0aae162edf0c64ce7c"
+  },
+  {
+    "path": "download/andrologiya_2025_4.pdf",
+    "sha256": "ef7d2b78a05c6035e0530fcaf3183657817c7e8030398b856bba99dc2fb65777"
+  },
+  {
+    "path": "download/consensus_of_experts_on_angioandrology_2025.pdf",
+    "sha256": "0abdab545c3272d31130a169cdba339bd084f914ac5b48fb0329fe1dbda9ed50"
+  },
+  {
+    "path": "download/kapto_aa_annals_of_urology.pdf",
+    "sha256": "dd82639ec16bd781023aa1c0c2b723d2cf4f92c7c859b7a786b1c07b0610683c"
+  },
+  {
+    "path": "download/kapto_aa_pv_2020.pdf",
+    "sha256": "91276e9fccf76eff04bf34f4d91af2414b8c79480cc66e349615dea2ae309370"
+  },
+  {
+    "path": "download/medterm.pdf",
+    "sha256": "1d3c2c2b7f6562fa5c3496b885249c2e4b9781902f9f8ac73f6db3e7291456d7"
+  },
+  {
+    "path": "download/rou_17.pdf",
+    "sha256": "1fe28dad4321d4a30d7cd1fbf64beac04e01b012283ca8fda8b784457c6358ae"
+  },
+  {
+    "path": "logo/aa1.jpg",
+    "sha256": "d7dba630350486134d9758c29b2a129b32699d85af930990251ba4f152ca2c54"
+  },
+  {
+    "path": "logo/afr.png",
+    "sha256": "9fd01c901fc0e2f76a254e2dcacdc348a4b469bd6e35b5b0d82c43844ae45bfb"
+  },
+  {
+    "path": "logo/ao_medicina.jpg",
+    "sha256": "abb815ca0ed5a925496c34b84044258796de5faec53d6b7c7cff9f350ad03365"
+  },
+  {
+    "path": "logo/chair.png",
+    "sha256": "bc04a8955545e3972a71b63c018b6934e3bfef767bd6cdd3239ded0d8309312c"
+  },
+  {
+    "path": "logo/cmko_logo.jpg",
+    "sha256": "5c1bee130d5e636bf25a59042a4aeb0bc17686e8f17d4eaa1f7d10b6a039fef1"
+  },
+  {
+    "path": "logo/eau_logo.gif",
+    "sha256": "8e2ee8493db1f385995b8781438448bbc8dcb521541c6274de7244c423aa2723"
+  },
+  {
+    "path": "logo/endo_logo_rus.png",
+    "sha256": "3f453773db73b1521b54640831ccd28e522ead0c78c3e4ae7514f25608159ab2"
+  },
+  {
+    "path": "logo/gerb_rae.jpg",
+    "sha256": "872454a2a73afaa3ef91660744a59ad3fc46710f6bb0ab53f97d482d60c5c5da"
+  },
+  {
+    "path": "logo/gold.jpg",
+    "sha256": "252411c0763a84b04bb070eb194ade67d91fef1a1fbf2c64bff503e8ac7281aa"
+  },
+  {
+    "path": "logo/icon_orcid.png",
+    "sha256": "0cad5a3091b07148c9b2950793048956a618a0a48e7d59aeb2654ee9ab6209ba"
+  },
+  {
+    "path": "logo/logolight.png",
+    "sha256": "39be723280d9ef10eaddcbab4c2e4c5e80b5683e39f6202a015be259978aebbc"
+  },
+  {
+    "path": "logo/logo_aaa1.jpg",
+    "sha256": "b4de91b756a5c0b6c7cd9ee2ca7cc82993a8019ab5af4e3074e07e14a2fa1e54"
+  },
+  {
+    "path": "logo/logo_ooorou.png",
+    "sha256": "9a775f74ab18055c63205285e25d24707cddabe1178c06edf8051b4fe0c44019"
+  },
+  {
+    "path": "logo/logo_pubmed.png",
+    "sha256": "131d19cc0a4bfec601020f1ccbdfd421892ccc3ed11398a4d965f94241026013"
+  },
+  {
+    "path": "logo/logo_raavs.jpg",
+    "sha256": "a2fb2b5e7e23d64f1827239a11894dda0502132b7825106a0b907ecc6c3dd237"
+  },
+  {
+    "path": "logo/logo_rarch.png",
+    "sha256": "a6570d8e53a23d1a0489687f6600d4aaf8caac6d4a8885fa2fa367430650837c"
+  },
+  {
+    "path": "logo/logo_roh.jpeg",
+    "sha256": "a0375ea36d263b015783b10bb533c4706d794d0146b6e14ef5f5e43189420a74"
+  },
+  {
+    "path": "logo/onn.jpg",
+    "sha256": "e04219f0c5c1d33e2ee140cd1b563191eb5300f61e48f9d2fc00718f9e273503"
+  },
+  {
+    "path": "logo/p.jpg",
+    "sha256": "4987f04ff0cd11c3eaf02c973fa92169f7ff9b4058b3f3ccbdcb1a3179a56399"
+  },
+  {
+    "path": "logo/ran.jpg",
+    "sha256": "7ace114b4e571e8a04bb4eddffd54f486b85fca2437c5c06157b181e772e65fb"
+  },
+  {
+    "path": "logo/rints.png",
+    "sha256": "a515e4ad82f4e69dd609788042ef0d9790c8d27c5aced651c51a51174311a3ce"
+  },
+  {
+    "path": "logo/rutube.jpg",
+    "sha256": "3c95749e535022e2cade8a1f1e7f77ef5a816538007a22bf42a6be65afd1f36f"
+  },
+  {
+    "path": "logo/scholar_google.jpg",
+    "sha256": "9413b47b37718ec89eca8e0afd949066e0acc2391bee7e7f18c7efd121c63ed1"
+  },
+  {
+    "path": "logo/sm_klinika.png",
+    "sha256": "5c7de5bcde845da490db7029a5eb3240344e8238e7420cbcc5c82c2c106d3ed3"
+  },
+  {
+    "path": "logo/urotv.png",
+    "sha256": "61952fca3fc439379d9f1ac7c60b524ac1295e6dc1f72b4af242f958a4346adb"
+  },
+  {
+    "path": "logo/youtube.jpg",
+    "sha256": "e19317d4605188873c4b45439f22323fcc20455d7abab90990c3e63b308b3456"
+  },
+  {
+    "path": "logo/zhurnal_agh.jpg",
+    "sha256": "bea0408ababae6365000225cef17b6d211885fd8919830b068a361b09b7a836d"
+  },
+  {
+    "path": "obr/lineechka_1.gif",
+    "sha256": "03388111e5dfb55d4634af0db4b872c5e3ef2d4ba28d87db70dc66fb15e5a777"
+  },
+  {
+    "path": "obr/lineechka_3.gif",
+    "sha256": "661e3f6e65aba8e0a8e8ccf11f040dc00fcae5b6eb968ac352ea24efad9b40fc"
+  },
+  {
+    "path": "obr/logo_1.jpg",
+    "sha256": "5c9545b4b2db80790dfd659ad2bc2e2081a5ae17c1b5bef75203433917050f3c"
+  },
+  {
+    "path": "obr/logo_2.jpg",
+    "sha256": "367f437a7601fa4b67423d48191b36dbf31afa4c14a027d598fb41b1582fd177"
+  },
+  {
+    "path": "pic/36636.jpg",
+    "sha256": "b59e0f83bdd4c5f84f33b971c83fecb581cfa56d06b673a60dede7bbd0ec81f4"
+  },
+  {
+    "path": "pic/396b769328.jpg",
+    "sha256": "7fc68d340b260c485bffd2a3551d48ca85d3a265fbc541ee16c69f567b902eda"
+  },
+  {
+    "path": "pic/6272ced87d59.png",
+    "sha256": "783675f0688a51b00e34b969a179de75e4417192a8bbcb1c5aa1710bc47b8e02"
+  },
+  {
+    "path": "pic/82fc02152a4a.jpg",
+    "sha256": "e31a0fad7349701ae44445d82af401435d9911dc25a200ac8dbd673fba143e43"
+  },
+  {
+    "path": "pic/875345789.jpg",
+    "sha256": "1141116c65bd183be5dac1201161b1aaadf6335b3989eeb1ff29c5c9b2bb5f17"
+  },
+  {
+    "path": "pic/88242df09.jpg",
+    "sha256": "8f9f8640489d904fb7f10e7f1eeb04fc49f929b4b9d894d40157d9e8130b7372"
+  },
+  {
+    "path": "pic/actle.jpg",
+    "sha256": "67e4eee71e5015ac12e277265dc07b0e918db498adb4897dcf9379b1c694bfa3"
+  },
+  {
+    "path": "pic/angiografiya_2.jpg",
+    "sha256": "8a3bc64146634adb33fde894c9cbf2defd4d1b4feebfae8ef7170f9da984f5bf"
+  },
+  {
+    "path": "pic/balz.jpg",
+    "sha256": "85f7a0c837f08f55facf4dc01e66debb88fb02c29df35ceef5e0590ff71ae27b"
+  },
+  {
+    "path": "pic/ccvln.jpg",
+    "sha256": "0e74863797ef157a0165f08fec8b52fd08dfcd634ebe10f4b82cb4ab5f74b646"
+  },
+  {
+    "path": "pic/ceap_pic.jpg",
+    "sha256": "5ccd9f5dabe3526e0d8a0d28d2a11cc471289c96640fc29569e66b4f030375e8"
+  },
+  {
+    "path": "pic/class_ops_2025.jpg",
+    "sha256": "86dd83e78c6dc962df8637f4435fc6d7c1d68f1bb38d451efbfcc38ddea28a5e"
+  },
+  {
+    "path": "pic/class_trusi_mrt_kt.jpg",
+    "sha256": "2e5cc86449d6e6772c1bf3f9ae30b8202e05f9297aa9b02fc579e461de87c373"
+  },
+  {
+    "path": "pic/cockett_1967.jpg",
+    "sha256": "1571f328387ff29fec86022cb54cbf042ad426912d44d85ccc3db547374db1c0"
+  },
+  {
+    "path": "pic/comorbid.jpg",
+    "sha256": "6e9b51aac18fc601c1285648412f0503e3709a0a466f93ca1448845845d3583c"
+  },
+  {
+    "path": "pic/compress.jpg",
+    "sha256": "4b3387f374f9985fc39fd374c6910d7f405fdc0d6bae92850954e0cff5fbfefc"
+  },
+  {
+    "path": "pic/coolsaet.jpg",
+    "sha256": "b6cd0deee0b57d19ead1cb536f93ac9eb4a725cd2b2c9875037e03a7ae42d41e"
+  },
+  {
+    "path": "pic/cor.jpg",
+    "sha256": "bf3a5840839dbc02a63b4905211eaacc692e1d4dfa84e57397de5b9c933ad336"
+  },
+  {
+    "path": "pic/cvkapto.jpg",
+    "sha256": "bd2f1569c4ed10654b71e1e1d5f568e2fb3ac6e71774a3ba85c95a283946b94f"
+  },
+  {
+    "path": "pic/degenerle.jpg",
+    "sha256": "042dbf1ce02c43677f517e9ad4e77bd6e685d83a97970e323d22110f0cd20553"
+  },
+  {
+    "path": "pic/download_1.jpg",
+    "sha256": "1c216b8b413f74fac30d4ac779416975f7b00fc6ab116498b78b5af1b30cca7a"
+  },
+  {
+    "path": "pic/d_ven_trusi_mrt_kt.jpg",
+    "sha256": "e2d4697b38d4955c5affe41e9cfdf6b46910be8e216c712ac7e0d6db865ce181"
+  },
+  {
+    "path": "pic/gavr.jpg",
+    "sha256": "fc1175c5523ea0cb4bf55961c699f70771269731bc2cf9eacb93029f23b2efcf"
+  },
+  {
+    "path": "pic/gnprob.jpg",
+    "sha256": "211ba9e503a9887d033845521c82af32f0a05e4390496a8a68d86672e879d79c"
+  },
+  {
+    "path": "pic/inicterm.jpg",
+    "sha256": "680bbea0273cbeb92e85dbc8f3fc191cc862744d6a10ced66dda5139e5191968"
+  },
+  {
+    "path": "pic/iuc.jpg",
+    "sha256": "e6710653fa2d4494b4e5514c610eecac21925e5f77795c329d21a7ab33694992"
+  },
+  {
+    "path": "pic/jeon_2010.jpg",
+    "sha256": "92aaae11e4d5a40fff7164af36688d4e4495b36175214d814ac2172167fdce27"
+  },
+  {
+    "path": "pic/kapto.png",
+    "sha256": "9cb60033fb674751bfdc72d08230f4f63eb6865e3381ef42a9180fa54b6844a9"
+  },
+  {
+    "path": "pic/kapto_aa_2.jpg",
+    "sha256": "918077ef0447334f1308197208f69845965117583882428099b5a2f4375e5c0e"
+  },
+  {
+    "path": "pic/kapto_harpunov_mamedov.jpg",
+    "sha256": "7d7c489c61cbd35dddae25b79ca7d1b7b41f46d5f674baf66e509734975c8a9f"
+  },
+  {
+    "path": "pic/kap_2018.jpg",
+    "sha256": "b0fc84bd1755241cbda43042e0a3e79362a07d859383405d21da662bcf57fbc4"
+  },
+  {
+    "path": "pic/kap_2018_2.jpg",
+    "sha256": "2634fa74b32c1a06a5af5d45ddde3c05d13c5114dc18d42cfab3fac5486fd7b0"
+  },
+  {
+    "path": "pic/kap_2018_3.jpg",
+    "sha256": "8497826dbefdbdaa9ac1c981faf4cd58f8a8670b43fe3d2adfde0207b7722e41"
+  },
+  {
+    "path": "pic/kksd.jpg",
+    "sha256": "3f14888c215a43ff3c1033290868479f95187b676235fa6779e870b52d696ec2"
+  },
+  {
+    "path": "pic/konov_1.gif",
+    "sha256": "3944b48a62a9fe5787dd811cb66ed8f2e29161c6c5a4138b881641e280f605e7"
+  },
+  {
+    "path": "pic/konov_2.gif",
+    "sha256": "a9ea26d6eb9c747f901c7d6f5204fafe5e081ec4fca6e32d291b2512dfd237f1"
+  },
+  {
+    "path": "pic/lug_1.gif",
+    "sha256": "2b91fb99c5e44fddf27d59c74d0a77e47657b05aac44ab4778ee6b6f7e1bb168"
+  },
+  {
+    "path": "pic/lug_2.gif",
+    "sha256": "d476b5d8cd2104293a405b9705d8b47e30eef63ddef99037dec64310ee9d169c"
+  },
+  {
+    "path": "pic/maksimenkov.jpg",
+    "sha256": "c55cafc3caaa9376805fb8b9e3435b6c51de3aacc4cee4d4eb95b910c3b06899"
+  },
+  {
+    "path": "pic/mazo_koriakin.jpg",
+    "sha256": "4806ccb5156a25317209aaaad34b61cfc3e0eb442ef6f23f6e1c60c6062dc665"
+  },
+  {
+    "path": "pic/medicina_7341.jpg",
+    "sha256": "67a5e01d2d7a522250f526873873dba1663fcf60889b05662c2800c77576ba06"
+  },
+  {
+    "path": "pic/mehran.jpg",
+    "sha256": "bc6ffd9433e38cd0a0597ce154632f1b4e3fc4601c573667e26af95060b61779"
+  },
+  {
+    "path": "pic/mesch.jpg",
+    "sha256": "a223b86f8b0411d4a98a246aa98e862a7df778bb1c358f5417f3e1dcddc00c64"
+  },
+  {
+    "path": "pic/mitsuoka_2013.jpg",
+    "sha256": "ff4ecfbdcd0223991f289f7d3e0de1b7375f633fba7523814fb29e88e1f14d7d"
+  },
+  {
+    "path": "pic/negus_1968.jpg",
+    "sha256": "6c0f5a9da1eb513f64ec13bcde08cf2af48d426f0fb303c92f41e5fc08abfcb8"
+  },
+  {
+    "path": "pic/nkved.jpg",
+    "sha256": "994e6df51639a3974d1e5293ebabf9c56fbbfafcc0d4848470dcb685612aeb34"
+  },
+  {
+    "path": "pic/nso.jpg",
+    "sha256": "102797368556aef7ffe8289d21f14ceb4d276447fc9e192638726a2484ff1dbc"
+  },
+  {
+    "path": "pic/nva_1.jpg",
+    "sha256": "7ddab461a5384bb18bb65f9088888204aee6b9ee2760327ab79ccb0a1a7acc5c"
+  },
+  {
+    "path": "pic/onko.bmp",
+    "sha256": "9624f791d276555e7ae7e8dbf79dd0e12173d4b92212f36d5035b262bfa15706"
+  },
+  {
+    "path": "pic/onkomark.jpeg",
+    "sha256": "c574b75cecbf741b123d6ff7c9ed2a15906f92e24386db10786fde5b798ccfaa"
+  },
+  {
+    "path": "pic/onkomarkers.jpg",
+    "sha256": "c3a9a0333e5520db19401f08f21fb857e95f956d8579352a10c9113df6260ca7"
+  },
+  {
+    "path": "pic/patient_ven.jpg",
+    "sha256": "21375794261445cf1d7386b51592505237d15d53694aeac146781bc8b550addc"
+  },
+  {
+    "path": "pic/polya.gif",
+    "sha256": "d810e4406b39eaf4e52bd45a517b80939c566d8d51b87d5b5dbb47bec06530ae"
+  },
+  {
+    "path": "pic/pudendal_neve_compression.jpg",
+    "sha256": "be056385af81f8f5e759bdc9c33f75836978393bf93f1c3fa1a1307ca8522306"
+  },
+  {
+    "path": "pic/pvdpt.jpg",
+    "sha256": "448bda27a4332790a9e0d094b2b998f94595ab2819b705f3bef4e99eaa5b4b01"
+  },
+  {
+    "path": "pic/raju_2006.jpg",
+    "sha256": "123a19f7f134a8fd19c89007cd53b0088f845bb0c413d750c62dbb320bbcbe6c"
+  },
+  {
+    "path": "pic/refr123.jpg",
+    "sha256": "61aac62c8e0cd40047a580c50b4be87f1e94148891df6e8b9aa6d2374eba06e7"
+  },
+  {
+    "path": "pic/refred.jpg",
+    "sha256": "c3a7fb8152c02c545a8204f8f3627da375a0824f741227881761379308b94ae7"
+  },
+  {
+    "path": "pic/refrmts.jpg",
+    "sha256": "3cca0ab3ae10f06ee96cc9f44b02b945478a2340615824403a591b62c85bc31e"
+  },
+  {
+    "path": "pic/refrvaric.jpg",
+    "sha256": "045d1babd726b54fe9e4ea9f930d3013197e8c12f7a76996d020408da855f2fc"
+  },
+  {
+    "path": "pic/renibus.jpg",
+    "sha256": "2dde3f95e54070ccd99f2b37bc87055b568c56f34301603f42f3fbdaefc3c31f"
+  },
+  {
+    "path": "pic/renopellv_1.jpg",
+    "sha256": "769fc7d7335288c88c63d85685364c0d8c09dc7884e4f52c6357c3b05aff9bc6"
+  },
+  {
+    "path": "pic/reversfibros.jpg",
+    "sha256": "85e9368523818808313ddd1be6481245bfcea03797931131337f1d02352740f0"
+  },
+  {
+    "path": "pic/riva.jpg",
+    "sha256": "624fb9dcc7a75fb0d216654d744270a29d3b388f5d028905e67c496814288eb0"
+  },
+  {
+    "path": "pic/rpva.gif",
+    "sha256": "ae49fa493853f1385b75e9aa425e0446a5e44efae54ba459149c2a638f61b318"
+  },
+  {
+    "path": "pic/rsopvp.jpg",
+    "sha256": "f50a3109356716a26c384564357f948a8f2514190b8cbbb5fd8c44a2472d0877"
+  },
+  {
+    "path": "pic/sacr.jpg",
+    "sha256": "65552642a555b86575b7661f57c22817d8ec00514759d6d20b82f3cb26d38ced"
+  },
+  {
+    "path": "pic/think.jpg",
+    "sha256": "d579cde9d43669e38dea32926a1f460af47c67b236d2e33b0f3ded177c56cda8"
+  },
+  {
+    "path": "pic/tonkov.jpg",
+    "sha256": "1691bd9e6b9b2b4150b9451feca8d39521c7a48cbf080de1178639ad0a5333f2"
+  },
+  {
+    "path": "pic/trusi_1.jpg",
+    "sha256": "d8a8d2718952c453b369332399916f922a5182cd764e7963659bc7985ae20334"
+  },
+  {
+    "path": "pic/trusi_2.jpg",
+    "sha256": "c8b8548c02cf75175efe9f3c1a8c4dfc98fd5b882a8f7d31ec808b109221c52e"
+  },
+  {
+    "path": "pic/trusi_hol.jpg",
+    "sha256": "11bcf0267f10c778087ccad941e9ab6f52fc035179c54da8c2b36f659b82fbf1"
+  },
+  {
+    "path": "pic/trusi_log.jpg",
+    "sha256": "fdf1fe45b6eede7138039f729046146bbc24e268b674d90de16843c8fc48b4e9"
+  },
+  {
+    "path": "pic/url.png",
+    "sha256": "2ffa11c72178aa755a3c66c3c59209a5c7b9cfec03f524b687640f1df0f934fd"
+  },
+  {
+    "path": "pic/vid.gif",
+    "sha256": "41c5b6f5a455a21ecfe72f04edd548b647cf163a733fdffa7e3d74c7bcec2995"
+  },
+  {
+    "path": "pic/wallstent.jpg",
+    "sha256": "f03d680dc408b03725167e9f0e6d635f1212994070e1f9bea5f0e5db87635906"
+  },
+  {
+    "path": "soft/amount_of_testosterone.xls",
+    "sha256": "8748daabff41c07fb6fc4ae769795a25ebd2baea353d94e14b4469fb91cdfee9"
+  },
+  {
+    "path": "soft/ams.pdf",
+    "sha256": "a8b12a2fa33a748332e3347f81ef8446a47586b96226d0d935b8b7558fd71c30"
+  },
+  {
+    "path": "soft/body_mass _ndex.xls",
+    "sha256": "dcc54c53f4877f7d95663c78e7a15e8c78b730c852b414137af96f4a962b7fbd"
+  },
+  {
+    "path": "soft/ceap_2020.exe",
+    "sha256": "e6bb832f247e0e31d74f383db90799cdb9cc288b5baf835cec5813d7e64cb516"
+  },
+  {
+    "path": "soft/ehs.jpg",
+    "sha256": "2b6a369e349b6248551488b71f365f8e4775ea9dfa3f506983492a5b98333c83"
+  },
+  {
+    "path": "soft/icd10.chm",
+    "sha256": "b676b1febe5e86e172fa73678b4a6310c2a587171313b50ca94eaeef89f9457e"
+  },
+  {
+    "path": "soft/ipss.pdf",
+    "sha256": "e555b09b8939d954ac2ad8ddb2c99a5f11681fa4807dc4e0faa5442465efd8b1"
+  },
+  {
+    "path": "soft/mehran1.pdf",
+    "sha256": "24d12f73510493e3b4b3c9de1a94c4ae750087bca09bc18c9770f1f90e5a05b2"
+  },
+  {
+    "path": "soft/mehran2_2022.xlsx",
+    "sha256": "4d5c5a3f6b960a2ecc0d4a804544d3f485542e70b9504708cc287c42f8919ee5"
+  },
+  {
+    "path": "soft/mief_5.pdf",
+    "sha256": "1ef3688255fd1c34224b254999b9cb9e1271210f9598dbc9f2450cd69d5669cc"
+  },
+  {
+    "path": "soft/mkb10.chm",
+    "sha256": "086df54eac06df68d80b77cb93b6b8d2af1cf016002bbb65d09021e71ac1005a"
+  },
+  {
+    "path": "soft/nih_cpsi.pdf",
+    "sha256": "b89ecd1d24147bb244e0b605d4849db54522f3742321f9adea3a324281cbe1b3"
+  },
+  {
+    "path": "soft/pearson.xlsx",
+    "sha256": "fcfd5149c90927eed86f8c0b97ae92811abac300f49c8bbf7f7b35ad25c7f8fd"
+  },
+  {
+    "path": "soft/pedt.pdf",
+    "sha256": "116a10ff53deab371f24e94993c7ec70b6c401d1bfa775f4c633d02fb7b58b1e"
+  },
+  {
+    "path": "soft/skf_kalkulyator.html",
+    "sha256": "0a5481f2b6045cddebbefa602438cb1015502717c760e74424557ed174eea0a1"
+  },
+  {
+    "path": "soft/the_volume_of_the_prostate.xls",
+    "sha256": "8e9e7bc80d8689499e47f32e3a75e16eec67d3194b00d96ca5b8aba0bcc74296"
+  }
+]
