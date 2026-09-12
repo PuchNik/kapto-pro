@@ -1,0 +1,307 @@
+﻿<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html;">
+<title>Калькулятор расчета скорости клубочковой фильтрации: формулы Кокрофта-Голта, MDRD, CKD-EPI, Шварца</title>
+<style type="text/css">
+.analysisvalue{
+	width: 60px;
+}
+
+.mainresult{
+	font-size: 1.2em;
+}
+.redalert{
+	color: #ff0000;
+}
+
+
+/* Responsive presentation; original calculation code remains unchanged. */
+*{box-sizing:border-box}body{font:16px/1.65 Arial,Helvetica,sans-serif;color:#262626;margin:0 auto;padding:28px 6%;max-width:1000px;overflow-wrap:anywhere}h3{font-size:26px;font-weight:400;line-height:1.3}form{margin:28px 0}table{max-width:100%}td{padding:6px;vertical-align:top}input{font:inherit;max-width:100%;accent-color:#762a3d}input[type=text]{min-height:44px;border:1px solid #bbb;padding:6px;width:85px}input[type=button],input[type=reset]{min-height:44px;padding:8px 18px;margin-block:12px;cursor:pointer}label{display:inline-flex;align-items:center;gap:5px;min-height:40px}#myhtmloutput{border-block:1px solid #ddd;padding:22px 0;margin:24px 0}
+@media(max-width:600px){form>table,form>table>tbody{display:block;width:100%}form>table>tbody>tr{display:flex;flex-wrap:wrap;align-items:center;border-bottom:1px solid #eee;padding:10px 0;gap:4px}form>table>tbody>tr>td:first-child{flex:0 0 105px}form>table>tbody>tr>td:not(:first-child){flex:1 1 100px}form>table>tbody>tr>td:has(table){flex-basis:100%}td.analysisvalue{width:auto}td table td{padding:2px}}
+</style>
+
+<script language="JavaScript">
+<!-- ;
+		
+		
+function calculateGFR(){
+
+	var sex = GetSelectedRadioItem('sex');
+	var age = document.getElementById('age').value.replace(",",".");
+	var weight = document.getElementById('weight').value.replace(",",".");
+	var height = document.getElementById('height').value.replace(",",".");
+	var crunits = GetSelectedRadioItem('crunits');
+	var race = GetSelectedRadioItem('race');
+
+	var gfr_cg = '';
+	var bsa = '';
+	var gfr_cg_bsa = '';
+	var gfr_mdrd = '';
+	var gfr_mdrd_standartized = '';
+	var gfr_epi = '';
+	var gfr_shwartz = '';
+	var gfr_shwartz_quadratic = '';
+	var finaloutput_alerts = '';
+	var finaloutput_results = '';
+	var finaloutput_conclusion = '';
+
+	var CKD1action = '<li>диагностика и лечение, специфичное для данной нефропатии</li><li>нефропротекция;</li><li>лечение сопутствующей патологии</li><li>снижение риска сердечно-сосудистой патологии</li>';
+	var CKD2action = '<li>оценка прогрессирования снижения СКФ</li>';
+	var CKD3action = '<li>профилактика, диагностика и лечение метаболических нарушений</li>';
+	var CKD4action = '<li><b>подготовка к заместительной почечной терапии</b></li>';
+	var CKD5action = '<li><b>проведение заместительной почечной терапии</b></li>';
+
+	var CKDgeneralaction = '<li><a href = "http://boris.bikbov.ru/2014/03/09/lektsiya-printsipyi-konservativnogo-lecheniya-hronicheskih-zabolevaniy-nemedikamentoznoe-lechenie-fizicheskaya-aktivnost-i-malosolevaya-dieta/">умеренная физическая активность</a></li><li><a href = "http://boris.bikbov.ru/2014/03/13/lektsiya-printsipyi-naznacheniya-lekarstv-v-ramkah-kontseptsii-konservativnogo-lecheniya-hronicheskih-zabolevaniy/">определенные особенности тактики лечения хронических заболеваний</a></li><li><a href = "http://boris.bikbov.ru/2013/03/10/osnovnyie-gruppyi-lekarstvennyih-preparatov-s-nefrotoksicheskim-deystviem/">избегать приема нефротоксичных препаратов</a></li>'; 
+	var CKDveinobligatory = '<li>настоятельно рекомендуется использовать <a href = "http://boris.bikbov.ru/2015/03/09/beregite-venyi-vazhnaya-informatsiya-dlya-medsester-i-patsientov/">специальную тактику при венепункции</a> (при взятии анализов крови, постановке капельниц, внутривенном введении лекарств)</li>'; 
+	var CKDveinrecomended = '<li>желательно использовать <a href = "http://boris.bikbov.ru/2015/03/09/beregite-venyi-vazhnaya-informatsiya-dlya-medsester-i-patsientov/">специальную тактику при венепункции</a> (при взятии анализов крови, постановке капельниц, внутривенном введении лекарств)</li>'; 
+	var CKDpatientliterature = '<li>бесплатные <a href = "http://boris.bikbov.ru/2012/02/27/literatura-po-nefrologii-na-russkom-yazyike-knigi-monografii-zhurnalyi/#patientliterature">брошюры и книги для пациентов с патологией почек</a></li>'; 
+	
+	cr = document.getElementById('cr').value;
+	cr = cr.replace(/[,]+/g, '.');
+	if ((cr <= 0.00003)||(cr >=6500)){
+		cr = 0;
+	}
+	
+	// конвертирую креатинин
+	switch(parseInt(crunits)){
+		case 1: // ммоль/л
+			cr = 1000 * cr / 88.4;
+		break;
+		
+		case 2: // мкмоль/л
+			cr = cr / 88.4;
+		break;
+	}
+
+	
+	if(age ==''){
+		finaloutput_alerts += '<div class="redalert">Не указан возраст</div>';
+	}else if(age >=0 && age < 2){ // дети до 2 лет 
+				finaloutput_results = 'Для детей до двух лет скорость клубочковой фильтрации определяется по номограммам'; 
+				finaloutput_alerts += '<div class="redalert">Для детей до двух лет скорость клубочковой фильтрации определяется по номограммам</div>'; 
+	}else if(age >=2 && age < 18){ // дети
+		if(cr > 0 & height > 0){
+			gfr_shwartz = 41.3 * (0.01 * height / cr );
+			if( gfr_shwartz > 0 ){
+				finaloutput_results += '<div>СКФ по формуле Шварца = ' + Math.round(gfr_shwartz) + ' мл/мин/1,73м<sup>2</sup></div>';
+			}
+			
+			if(sex >= 0){
+				gfr_shwartz_quadratic = 0.68 * ( height / cr ) - 0.0008 * (height / cr ) * (height / cr ) + 0.48 * age ;
+				if(sex == 0){
+					gfr_shwartz_quadratic = gfr_shwartz_quadratic - 25.68;
+				}else{
+					gfr_shwartz_quadratic = gfr_shwartz_quadratic - 21.53;
+				}
+
+				if( gfr_shwartz_quadratic > 0 ){
+					finaloutput_results += '<div>СКФ по улучшенной формуле Шварца = ' + Math.round(gfr_shwartz_quadratic) + ' мл/мин/1,73м<sup>2</sup> (см. ссылку [4])</div>';
+				}
+
+			}else{
+				finaloutput_alerts += '<div class="redalert">Для расчета СКФ по улучшенной формуле Шварца не хватает данных о поле</div>';
+			}
+			
+		}else{
+			finaloutput_alerts += '<div class="redalert">Для расчета СКФ не хватает роста и/или креатинина</div>';
+		}
+	}else{ // взрослые
+		if(cr > 0 & sex >= 0 & age > 0){
+			// ckd-epi
+			if(sex == 0){
+				if(cr <= 0.7){
+					gfr_epi = Math.pow((cr / 0.7),-0.329) * Math.pow(0.993, age);
+				}else{
+					gfr_epi = Math.pow((cr / 0.7),-1.209) * Math.pow(0.993, age);
+				}
+			}else{
+				if(cr <= 0.9){
+					gfr_epi = Math.pow((cr / 0.9),-0.411) * Math.pow(0.993, age);
+				}else{
+					gfr_epi = Math.pow((cr / 0.9),-1.209) * Math.pow(0.993, age);
+				}
+			}
+			
+			// коэффициент для рассы
+			if(race == 1){ // белые
+				if(sex == 0){
+					gfr_epi = gfr_epi * 144;
+				}else{
+					gfr_epi = gfr_epi * 141;
+				}
+			}else{ // негроидная
+				if(sex == 0){
+					gfr_epi = gfr_epi * 166;
+				}else{
+					gfr_epi = gfr_epi * 163;
+				}
+			}
+			gfr_epi = Math.round(gfr_epi);
+			if(gfr_epi > 0){
+				finaloutput_results += '<div>СКФ по формуле CKD-EPI = ' + gfr_epi + ' мл/мин/1,73м<sup>2</sup></div>';
+				finaloutput_conclusion += '<div class="mainresult">Скорость клубочковой фильтрации (по формуле CKD-EPI): ' + gfr_epi + ' мл/мин/1,73м<sup>2</sup></div>';
+				
+				if( gfr_epi >=90 ){
+					finaloutput_conclusion += '<div>Градация C1 (по <a href = "http://boris.bikbov.ru/2013/01/20/novyie-klinicheskie-rekomendatsii-po-diagnostike-klassifikatsii-i-lecheniyu-hronicheskoy-bolezni-pochek-kdigo-2013-goda/">классификации КДИГО</a> 2013 года)</div>';
+					finaloutput_conclusion += '<div><u>Если у больного имеются <a href = "http://boris.bikbov.ru/booker.php?id=9000000002">другие признаки ХБП</a></u>, то пациенту необходимы:</div><ul style="margin-top: 0px;">' + CKD1action + CKDgeneralaction + CKDveinrecomended + CKDpatientliterature + '</ul><u>При отсутствии других признаков ХБП</u> данная скорость клубочковой фильтрации является нормальной.<br><br>';
+				}else if( gfr_epi >=60 & gfr_epi <=89 ){
+					finaloutput_conclusion += '<div>Градация C2 (по <a href = "http://boris.bikbov.ru/2013/01/20/novyie-klinicheskie-rekomendatsii-po-diagnostike-klassifikatsii-i-lecheniyu-hronicheskoy-bolezni-pochek-kdigo-2013-goda/">классификации КДИГО</a> 2013 года)</div>';
+					finaloutput_conclusion += '<div><u>Если у больного имеются <a href = "http://boris.bikbov.ru/booker.php?id=9000000002">другие признаки ХБП</a></u>, то пациенту необходимы:</div><ul style="margin-top: 0px;">' + CKD1action + CKD2action + CKDgeneralaction + CKDveinrecomended + CKDpatientliterature + '</ul><u>При отсутствии других признаков ХБП</u> данная скорость клубочковой фильтрации является нормальной.<br><br>';
+				}else if( gfr_epi >=45 & gfr_epi <=59 ){
+					finaloutput_conclusion += '<div>Градация C3а (по <a href = "http://boris.bikbov.ru/2013/01/20/novyie-klinicheskie-rekomendatsii-po-diagnostike-klassifikatsii-i-lecheniyu-hronicheskoy-bolezni-pochek-kdigo-2013-goda/">классификации КДИГО</a> 2013 года)</div>';
+					finaloutput_conclusion += '<div>Пациенту необходимы:</div><ul style="margin-top: 0px;">' + CKD1action + CKD2action + CKD3action + CKDgeneralaction + CKDveinobligatory + CKDpatientliterature + '</ul>';
+				}else if( gfr_epi >=30 & gfr_epi <=44 ){
+					finaloutput_conclusion += '<div>Градация C3б (по <a href = "http://boris.bikbov.ru/2013/01/20/novyie-klinicheskie-rekomendatsii-po-diagnostike-klassifikatsii-i-lecheniyu-hronicheskoy-bolezni-pochek-kdigo-2013-goda/">классификации КДИГО</a> 2013 года)</div>';
+					finaloutput_conclusion += '<div>Пациенту необходимы:</div><ul style="margin-top: 0px;">' + CKD1action + CKD2action + CKD3action + CKDgeneralaction + CKDveinobligatory + CKDpatientliterature + '</ul>';
+				}else if( gfr_epi >=15 & gfr_epi <=29 ){
+					finaloutput_conclusion += '<div>Градация C4 (по <a href = "http://boris.bikbov.ru/2013/01/20/novyie-klinicheskie-rekomendatsii-po-diagnostike-klassifikatsii-i-lecheniyu-hronicheskoy-bolezni-pochek-kdigo-2013-goda/">классификации КДИГО</a> 2013 года)</div>';
+					finaloutput_conclusion += '<div>Пациенту необходимы:</div><ul style="margin-top: 0px;">' + CKD1action + CKD2action + CKD3action + CKD4action + CKDgeneralaction + CKDveinobligatory + CKDpatientliterature + '</ul>';
+				}else if( gfr_epi >0 & gfr_epi < 15 ){
+					finaloutput_conclusion += '<div>Градация C5 (по <a href = "http://boris.bikbov.ru/2013/01/20/novyie-klinicheskie-rekomendatsii-po-diagnostike-klassifikatsii-i-lecheniyu-hronicheskoy-bolezni-pochek-kdigo-2013-goda/">классификации КДИГО</a> 2013 года)</div>';
+					finaloutput_conclusion += '<div>Пациенту необходимы:</div><ul style="margin-top: 0px;">' + CKD1action + CKD2action + CKD3action + CKD5action + CKDgeneralaction + CKDveinobligatory + CKDpatientliterature + '</ul>';
+				}
+				
+			}
+			
+			// mdrd
+			if( race == 2 ){ // негродидная
+				race = 1.212;
+			}
+			// 186 - для нестандартизованных наборов креатинина, 175 - для стандартизованных
+			if(sex == 0){
+				gfr_mdrd = Math.round((186*(Math.pow(cr,-1.154))*(Math.pow(age,-0.203))*race*0.742));
+				gfr_mdrd_standartized = Math.round((175*(Math.pow(cr,-1.154))*(Math.pow(age,-0.203))*race*0.742));
+			}else{
+				gfr_mdrd = Math.round((186*(Math.pow(cr,-1.154))*(Math.pow(age,-0.203))*race*sex));
+				gfr_mdrd_standartized = Math.round((175*(Math.pow(cr,-1.154))*(Math.pow(age,-0.203))*race*sex));
+			}
+			
+			if(gfr_mdrd > 0){
+				finaloutput_results += '<div>СКФ по формуле MDRD = ' + gfr_mdrd + ' мл/мин/1,73м<sup>2</sup> (для наборов без стандартизации креатинина)</div>';
+				finaloutput_results += '<div>СКФ по формуле MDRD = ' + gfr_mdrd_standartized + ' мл/мин/1,73м<sup>2</sup> (для наборов со стандартизацией креатинина по референтному реактиву SRM 967, подробнее см. <a href="http://www.nkdep.nih.gov/lab-evaluation/gfr/creatinine-standardization.shtml" target="_another">здесь</a>)</div>';
+			}
+			
+			// кокрофт
+			if(weight > 0){
+				gfr_cg =  ( (140 - age) * weight / 72 ) / cr;
+				if(sex == 0){
+					gfr_cg = gfr_cg * 0.85;
+				}
+				if(gfr_cg > 0){
+					finaloutput_results += '<div>Клиренс креатинина по формуле Кокрофта-Голта = ' + Math.round(gfr_cg) + ' мл/мин</div>';
+				}
+				if(height>0){
+					bsa = (height*weight / 3600);
+					bsa = Math.sqrt(bsa);
+					gfr_cg_bsa = gfr_cg * 1.73 / bsa ;
+					finaloutput_results += '<div>Клиренс креатинина по формуле Кокрофта-Голта со стандартизацией на площадь поверхности тела = ' + Math.round(gfr_cg_bsa) + ' мл/мин/1,73м<sup>2</sup></div>';
+				}
+			}else{
+				finaloutput_alerts += '<div class="redalert">Для расчета клиренса креатинина по формуле Кокрофта-Голта нет данных о весе</div>'; 
+			}
+
+		}else{
+			finaloutput_alerts += '<div class="redalert">Недосточно данных для расчета. Убедитесь что Вы указали значение креатинина, пол, возраст и расу.</div>';
+		}
+	
+	}
+
+document.getElementById('myhtmloutput').innerHTML = finaloutput_conclusion + finaloutput_results + '<br>' + finaloutput_alerts;
+return true;
+}
+
+
+function GetSelectedRadioItem(name) {
+
+	var obj = document.getElementsByName(name);
+	chosen = '';
+    for(i=0; i<obj.length; i++){
+		if (obj[i].checked) {
+			chosen = obj[i].value
+		}
+	}
+	//alert (chosen);
+return chosen;
+}
+
+// end hide -->
+</script>
+ 
+</head>
+
+<body bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#800080" alink="#ff0000">
+<h3>Универсальный калькулятор расчета скорости клубочковой фильтрации</h3>
+
+<noscript>
+<center>
+<table cellspadding=2 cellspacing=0 border=0 width="70%">
+<tr><td>
+<font color=#ff0000>Пожалуйста, включите поддержку JavaScript в браузере и разрешите выполнение сценариев на данной странице.</font> <br>Это абсолютно необходимо для работы калькулятора. Как это сделать можно посмотреть на <a href="http://help.yandex.ru/mail/faq.xml#js-enable" target ="_another">Яндексе</a> <br><br><br>
+</td>
+</tr>
+</table>
+</center>
+</noscript>
+
+<form>
+<table  cellspadding=2 cellspacing=2 border=0>
+<tr>
+<td>Возраст, лет</td>
+<td class="analysisvalue"><input type="text" size=10 name="age" id="age" class="analysisvalue"></td>
+<td valign=top></td>
+</tr>
+<tr>
+<td>Пол</td>
+<td colspan=2>
+<label><input type="radio" name="sex" id="sex" value="1">муж</label>&nbsp;&nbsp;&nbsp; 
+<label><input type="radio" name="sex" id="sex" value="0">жен</label> 
+</td>
+</tr>
+<tr>
+<td>Раса</td>
+<td colspan=2>
+<label><input type="radio" name="race" id="race" value="1" checked>европеоидная</label>&nbsp;&nbsp;&nbsp; 
+<label><input type="radio" name="race" id="race" value="2">негроидная</label> 
+</td>
+</tr>
+<tr>
+<td valign=top>Креатинин</td>
+<td valign=top class="analysisvalue"><input type="text" size=10 name="cr" id="cr" class="analysisvalue"></td>
+<td valign=top>
+<label><input type="radio" name="crunits" id="crunits" value="2" checked>мкмоль/л</label><br>
+<label><input type="radio" name="crunits" id="crunits" value="1">ммоль/л</label><br>
+<label><input type="radio" name="crunits" id="crunits" value="3">мг/дл</label> 
+</td>
+</tr>
+<tr>
+<td>Рост, см</td>
+<td class="analysisvalue"><input type="text" size=10 name="height" id="height" class="analysisvalue"></td>
+<td valign=top rowspan=2>
+<table  cellspadding=0 cellspacing=0 border=0><tr><td valign=top><span style="font-size: 3em">&#125;</span></td><td valign=center>Нужны только для расчета СКФ для детей и<br> клиренса креатинина по формуле Кокрофта-Голта</td><tr></table></td>
+</tr>
+<tr>
+<td class="analysisvalue">Вес, кг</td>
+<td class="analysisvalue"><input type="text" size=10 name="weight" id="weight" class="analysisvalue"></td>
+</tr>
+
+</table>
+<input type="button" value="Рассчитать" onClick="calculateGFR();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="Сброс">
+
+</form>
+
+<div id="myhtmloutput">Результат:</div>
+
+<br>
+
+При составлении калькулятора использовались следующие источники:<br>
+[1]	KDIGO 2012 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney International Supplement 2013;3:1–150.<br>
+[2]	Levey AS, Stevens LA, Frcp C, Schmid CH, Zhang YL, Iii AFC, et al. A New Equation to Estimate Glomerular Filtration Rate. Ann Intern Med 2009;150:604–12.<br>
+[3]	Levey AS, Coresh J, Greene T, Stevens LA, Zhang YL, Hendriksen S, et al. Using standardized serum creatinine values in the modification of diet in renal disease study equation for estimating glomerular filtration rate. Annals of Internal Medicine 2006;145:247–54.<br>
+[4]	Gao A, Cachat F, Faouzi M, Bardy D, Mosig D, Meyrat B-J, et al. Comparison of the glomerular filtration rate in children by the new revised Schwartz formula and a new generalized formula. Kidney International 2013;83:524–30.<br>
+[5]	National Kidney Foundation. K/DOQI clinical practice guidelines for chronic kidney disease: evaluation, classification, and stratification. American Journal of Kidney Diseases the Official Journal of the National Kidney Foundation 2002;39:S1–S266.<br>
+[6]	Земченков А.Ю., Томилина Н.А. «К/ДОКИ» обращается к истокам хронической почечной недостаточности (О новом разделе Рекомендаций K/DOQI по диагностике, классификации и оценке тяжести хронических заболеваний почек). Нефрология и диализ. 2004. Том 6, № 3. с 204–220.<br>
+
+</body>
+</html>
