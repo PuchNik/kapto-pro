@@ -11,7 +11,7 @@
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",
     "format": "oxfmt",
-    "prebuild": "node scripts/fetch-assets.mjs"
+    "prebuild": "node scripts/fetch-assets.mjs && node scripts/split-document.mjs"
   },
   "dependencies": {
     "react": "19.2.6",
